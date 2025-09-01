@@ -22,6 +22,8 @@
 
 #if CONFIG_BSP_LCD_TYPE_1024_600
 #include "esp_lcd_ek79007.h"
+#elif CONFIG_BSP_LCD_TYPE_1024_600_JD9165
+#include "esp_lcd_jd9165.h"
 #elif CONFIG_BSP_LCD_TYPE_HDMI
 #include "esp_lcd_lt8912b.h"
 #else
