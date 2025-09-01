@@ -90,6 +90,11 @@
 #define BSP_LCD_RST           (GPIO_NUM_27)
 #define BSP_LCD_TOUCH_RST     (GPIO_NUM_NC)
 #define BSP_LCD_TOUCH_INT     (GPIO_NUM_NC)
+#elif CONFIG_BSP_LCD_TYPE_1024_600_JD9165
+#define BSP_LCD_BACKLIGHT     (GPIO_NUM_23)
+#define BSP_LCD_RST           (GPIO_NUM_27)
+#define BSP_LCD_TOUCH_RST     (GPIO_NUM_22)
+#define BSP_LCD_TOUCH_INT     (GPIO_NUM_21)
 #else
 #define BSP_LCD_BACKLIGHT     (GPIO_NUM_23)
 #define BSP_LCD_RST           (GPIO_NUM_NC)
